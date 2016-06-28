@@ -15,5 +15,11 @@ public class MainActivity extends CommonActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
 
         setContentView(R.layout.main);
+
+        //bdmap点击事件
+
     }
+
+    //bdmap点击事件
+
 }
