@@ -15,5 +15,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="BaiduLBS_Android" level="project" />
+    <orderEntry type="library" name="httpmime-4.1.2" level="project" />
+    <orderEntry type="library" name="IndoorscapeAlbumPlugin" level="project" />
   </component>
 </module>

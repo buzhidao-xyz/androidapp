@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AndroidApp</string>
+    <string name="wordMapPage">Map Page!</string>
+    <string name="wordBack">返回</string>
+    <string name="wordTitle">标题</string>
+    <string name="wordMainPage">首页</string>
+    <string name="fontsizeHeadTitle">20sp</string>
 </resources>

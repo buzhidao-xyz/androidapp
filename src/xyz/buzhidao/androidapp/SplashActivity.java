@@ -8,7 +8,7 @@ import android.view.WindowManager;
 
 public class SplashActivity extends BaseActivity {
     //最小显示时间
-    private static final int SHOW_TIME_MIN = 3000;
+    private static final int SHOW_TIME_MIN = 1000;
 
     private Handler mMainHandler = new Handler() {};
 
@@ -33,7 +33,7 @@ public class SplashActivity extends BaseActivity {
         getWindow().setFlags(WindowManager.LayoutParams.TYPE_STATUS_BAR, WindowManager.LayoutParams.TYPE_STATUS_BAR);
 
         //加载页面内容
-        setContentView(R.layout.splash);
+        setContentView(R.layout.splash_activity);
 
         mMainHandler.postDelayed(goToMainActivity, SHOW_TIME_MIN);
     }
