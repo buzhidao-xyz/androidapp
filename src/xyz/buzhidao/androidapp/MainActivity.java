@@ -23,7 +23,7 @@ public class MainActivity extends CommonActivity {
     public void goToMap(View v) {
         Intent intent = new Intent(MainActivity.this, MapActivity.class);
         MainActivity.this.startActivity(intent);
-        MainActivity.this.finish();
+//        MainActivity.this.finish();
         //×ó»¬ÒÆÈë ÓÒ»¬ÒÆ³ö
         overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
     }

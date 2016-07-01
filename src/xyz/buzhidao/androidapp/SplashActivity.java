@@ -27,10 +27,10 @@ public class SplashActivity extends BaseActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //隐藏标题栏
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        //隐藏导航栏
-        getWindow().setFlags(WindowManager.LayoutParams.TYPE_STATUS_BAR, WindowManager.LayoutParams.TYPE_STATUS_BAR);
+//        //隐藏标题栏
+//        requestWindowFeature(Window.FEATURE_NO_TITLE);
+//        //隐藏导航栏
+//        getWindow().setFlags(WindowManager.LayoutParams.TYPE_STATUS_BAR, WindowManager.LayoutParams.TYPE_STATUS_BAR);
 
         //加载页面内容
         setContentView(R.layout.splash_activity);
